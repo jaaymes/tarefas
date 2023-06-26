@@ -1,29 +1,49 @@
-# tarefas
+Tarefas - TODO
+Este é um projeto feito com Vue 3 e Vite. Ele também usa o json-server para simular um backend.
 
-This template should help get you started developing with Vue 3 in Vite.
+Pré-requisitos
+Antes de começar, certifique-se de ter o Node.js e o npm instalados na sua máquina.
 
-## Recommended IDE Setup
+Iniciando o Projeto
+Primeiro, clone o repositório para a sua máquina local usando git:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Clone o Projeto
+git clone https://github.com/jaaymes/tarefas.git
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# Navegue até o diretório do projeto:
+cd tarefas
 
-## Project Setup
-
-```sh
+# Instale as dependências do projeto com npm:
 npm install
-```
+Scripts Disponíveis
+No diretório do projeto, você pode executar:
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Executa o aplicativo no modo de desenvolvimento.
 npm run dev
-```
+Abra http://localhost:5173 para visualizá-lo no navegador.
 
-### Compile and Minify for Production
+A página será recarregada se você fizer alterações no código.
+Você também verá quaisquer erros de lint no console.
 
-```sh
+# Compila o aplicativo para produção na pasta dist.
+# Ele agrupa corretamente o Vue no modo de produção e otimiza a compilação para obter o melhor desempenho.
 npm run build
-```
+
+npm run preview
+Serve a compilação de produção em um servidor local.
+Esta é uma maneira de inspecionar a compilação de produção localmente antes de implantá-la.
+
+# Inicia o json-server que vai simular um backend para o projeto.
+# O servidor estará disponível em http://localhost:3004.
+npm run server
+
+Tecnologias Usadas
+Vue 3
+Vite 4.3
+json-server
+Por favor, leia a documentação de cada tecnologia para entender mais sobre como elas funcionam:
+
+Vue 3
+Vite
+json-server
